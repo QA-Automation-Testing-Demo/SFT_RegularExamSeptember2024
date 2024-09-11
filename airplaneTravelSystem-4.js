@@ -32,7 +32,7 @@ function airplaneTravelSystem() {
         totalBaggageFees += extraBags * baggageFeePerBag;
     }
 
-    console.log("Airplane Travel:");
+    console.log("Airplane Travel Summary:");
     console.log(`Unique travelers: ${travelers.size}`);
     console.log(`Total passengers: ${totalPassengers}`);
     console.log(`Total baggage fees: $${totalBaggageFees.toFixed(2)}`);
